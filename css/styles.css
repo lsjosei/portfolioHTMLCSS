@@ -87,10 +87,10 @@ section{
 .about-me-img-container img{
     width: 15rem;
     position: absolute;
+    transition: 500ms;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    transition: 500ms;
 }
 
 .about-me-img-container img:hover{

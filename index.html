@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>Jose's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.ico">
 </head>
 <body>
     <nav>
@@ -22,8 +23,8 @@
                 <h1 class="title">Hello there, my name is <span class="highlight">Jose I. Labella</span></h1>
                 <p class="description">Full Stack Developer</p>
             </div>
-            <div class="about-me-img-container loading">
-                <img src="./imgs/me.png" alt="Jose">
+            <div class="about-me-img-container">
+                <img src="./imgs/me.png" alt="Jose" class="loading">
             </div>
 
         </section>
@@ -61,9 +62,5 @@
     </footer>
     
 </body>
-<script>
-    document.addEventListener("load",()=>{
-        document.querySelector(".about-me-img-container").classList.remove("loading")
-    })
-</script>
+<script src="./js/index.js"></script>
 </html>
