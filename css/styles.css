@@ -69,6 +69,11 @@ section{
     margin-top:1rem;
 }
 
+.about-me-img-container{
+    width:14rem;
+    height: 14rem;
+    overflow:hidden;
+}
 
 .about-me img{
     transition: 500ms;
