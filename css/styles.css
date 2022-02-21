@@ -14,6 +14,9 @@
     font-family: sans-serif;
 }
 
+.loading{
+    transition: none !important;
+}
 
 body{
     position: relative;
@@ -78,16 +81,16 @@ section{
     overflow: hidden;
 }
 
-.about-me img{
-    transition: 500ms;
+.about-me-img-container img{
     width: 15rem;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    transition: 500ms;
 }
 
-.about-me img:hover{
+.about-me-img-container img:hover{
     width: 35rem;
 }
 .skills{
