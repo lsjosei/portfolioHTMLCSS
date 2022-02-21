@@ -46,9 +46,11 @@ nav ul li a{
     transition:500ms;
     border-radius:.5rem;
 }
+
 nav ul li a:hover{
     background-color: var(--color-green);
 }
+
 section{
     padding: 2rem 5rem;
 }
@@ -64,6 +66,7 @@ section{
 
 .title{
     font-size:2rem;
+    text-align: right;
 }
 
 .description{
@@ -73,8 +76,8 @@ section{
 
 .about-me-img-container{
     position: relative;
-    width:14rem;
-    height: 14rem;
+    min-width:14rem;
+    min-height: 14rem;
     overflow:hidden;
     border-radius: 50%;
     border:1rem solid var(--color-green);
