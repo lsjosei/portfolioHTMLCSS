@@ -50,6 +50,7 @@ nav ul li a:hover{
 
 section{
     padding: 2rem 5rem;
+    height: calc(100vh - 4rem);
 }
 
 .about-me {
@@ -59,7 +60,6 @@ section{
     align-items: center;
     background-color:var(--color-clear);
     gap:2rem;
-    height: 24rem;
 }
 
 .title{
@@ -136,8 +136,7 @@ section{
 .skills{
     display:flex;
     justify-content: center;
-    align-items: flex-start;
-    min-height: 12rem;
+    align-items: center;
 }
 
 table{
